@@ -3,7 +3,7 @@ Futur site internet de l'association Dionysos Party. Association de création de
 
 ### Done
 - Maquetter la page principal.
-- 
+
 ### To do
 - CSS
 - DevOps
