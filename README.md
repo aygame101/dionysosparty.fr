@@ -1,4 +1,7 @@
 # dionysosparty.fr
+Actuellement : [https://dionysosparty.fr](https://dionysosparty.fr)\
+Une version très simple et temporaire du site avec simplement quelques informations essentielles pour montrer que le site est Up, en attendant de dev la vraie version.
+
 Futur site internet de l'association Dionysos Party. Association de création de soirées en extérieur
 
 ### Done
