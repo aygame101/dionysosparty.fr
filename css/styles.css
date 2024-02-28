@@ -28,41 +28,42 @@ section {
 }
 
 .one {
-    background-color: white;
-}
-
-.one h1 {
-    color: #0e1111;
-    padding-left: 25vw;
-    padding-right: 25vw;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    border: solid 5px #0e1111;
-    background-color: white;
-    transition: 0.4s;
-    text-align: center;
-    margin-top: 2vh;
+    background-color: #0e1111;
 }
 
 .one a {
-    text-decoration: none; /* Supprime la décoration de texte par défaut */
-    color: inherit; /* Utilise la couleur de texte héritée */
+    text-decoration: none;
+    color: inherit;
 }
 
 .one h2 {
     margin-top: 0px;
     text-align: center;
     margin-bottom: 20vw;
+    color: #ff48ff;
 }
 
-.one h1:hover {
-    color: white;
+.one h1 {
+    color: #ff48ff;
     padding-left: 25vw;
     padding-right: 25vw;
     padding-top: 1%;
     padding-bottom: 1%;
-    border: solid 5px #0e1111;
+    border: solid 5px #ff48ff;
     background-color: #0e1111;
+    transition: 0.4s;
+    text-align: center;
+    margin-top: 2vh;
+}
+
+.one h1:hover {
+    color: #0e1111;
+    padding-left: 25vw;
+    padding-right: 25vw;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border: solid 5px #ff48ff;
+    background-color: #ff48ff;
     transition: 0.4s;
     text-align: center;
     margin-top: 2vh;
