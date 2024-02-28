@@ -1,15 +1,16 @@
 # dionysosparty.fr
 Actuellement : [https://dionysosparty.fr](https://dionysosparty.fr)\
-Une version très simple et temporaire du site avec simplement quelques informations essentielles pour montrer que le site est Up, en attendant de dev la vraie version.
+Une version 0.1 on pourrait dire. Avec quelque chose de beau déjà, c'est bien, est les liens importants.
 
 Futur site internet de l'association Dionysos Party. Association de création d'événements sociaux (soirée extérieure et intérieure, autre...).
 
 ### Done
 - Maquetter la page principal.
+- Structure principale.
+- CSS.
+- Boutons principaux
 
 ### To do
-- CSS
+- Bouton galerie photos des soirées.
 - DevOps
-- Maquetter l'interface admin avec la gestion des membres et des stocks.
-
-![Image maquette brouillon](https://github.com/aygame101/dionysosparty.fr/blob/main/maquette-site-internet.png)
+- Maquetter l'interface admin avec la gestion stocks (et des membres).
