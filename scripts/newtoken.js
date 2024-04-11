@@ -1,4 +1,4 @@
-const config = JSON.parse(fs.readFileSync('config.json'));
+const config = JSON.parse(fs.readFileSync('conf.json'));
 const clientSecret = config.clientId;
 const clientId = config.clientSecret;
 
