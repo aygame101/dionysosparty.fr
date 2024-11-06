@@ -1,16 +1,13 @@
 # dionysosparty.fr
-Actuellement : [https://dionysosparty.fr](https://dionysosparty.fr)\
-Une version 0.1 on pourrait dire. Avec quelque chose de beau déjà, c'est bien, est les liens importants.
 
-Futur site internet de l'association Dionysos Party. Association de création d'événements sociaux (soirée extérieure et intérieure, autre...).
+Site pour notre association qui organise des événements et des soirées.
+Il nous permet de gérer les stocks, les boutons, avoir les différents liens rassembler au meme endroit pour les utilisateurs.
 
 ### Done
-- Maquetter la page principal.
+- Panel admin geston stock, boutons.
 - Structure principale.
-- CSS.
 - Boutons principaux
 
 ### To do
 - Bouton galerie photos des soirées.
-- DevOps
-- Maquetter l'interface admin avec la gestion stocks (et des membres).
+- Gestion membre ?
