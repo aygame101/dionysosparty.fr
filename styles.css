@@ -45,8 +45,8 @@ section {
 
 .one h2 {
     color: #ff48ff;
-    padding-left: 25vw;
-    padding-right: 25vw;
+    padding-left: 1%;
+    padding-right: 1%;
     padding-top: 1%;
     padding-bottom: 1%;
     border: solid 5px #ff48ff;
@@ -55,12 +55,14 @@ section {
     text-align: center;
     margin-top: 2vh;
     margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .one h2:hover {
     color: #0e1111;
-    padding-left: 25vw;
-    padding-right: 25vw;
+    padding-left: 1%;
+    padding-right: 1%;
     padding-top: 1%;
     padding-bottom: 1%;
     border: solid 5px #ff48ff;
@@ -69,6 +71,8 @@ section {
     text-align: center;
     margin-top: 2vh;
     margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #bottom_button {
@@ -84,4 +88,39 @@ section {
     border-radius: 50%;
     margin-bottom: 10px;
     margin-top: 0px;
+}
+
+/* For computer */
+@media (min-width: 800px) {
+    .one h2 {
+        color: #ff48ff;
+        padding-left: 25vw;
+        padding-right: 25vw;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        border: solid 5px #ff48ff;
+        background-color: #0e1111;
+        transition: 0.4s;
+        text-align: center;
+        margin-top: 2vh;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .one h2:hover {
+        color: #0e1111;
+        padding-left: 25vw;
+        padding-right: 25vw;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        border: solid 5px #ff48ff;
+        background-color: #ff48ff;
+        transition: 0.4s;
+        text-align: center;
+        margin-top: 2vh;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
