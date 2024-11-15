@@ -75,6 +75,12 @@ section {
     margin-right: auto;
 }
 
+h3 {
+    color: #ff48ff;
+    text-align: center;
+    margin-top: 5%;
+}
+
 #bottom_button {
     margin-bottom: 100px;
 }

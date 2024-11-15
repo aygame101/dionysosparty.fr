@@ -35,7 +35,7 @@
                 }
                 ?>
 
-                
+                <h3>De grandes choses à venir...</h3>
 
             </div>
         </section>
