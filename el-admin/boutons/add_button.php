@@ -39,7 +39,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $name = $_POST['name'];
     $link = $_POST['link'];
     
-    $button = "$name,$link\n";
+    $button = "$name,$link,1\n";
     $filename = 'buttons.txt';
     file_put_contents($filename, $button, FILE_APPEND);
     header("Location: admin.php");
