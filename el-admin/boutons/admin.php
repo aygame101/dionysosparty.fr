@@ -39,12 +39,14 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
                 if (!empty(trim($button))) {
                     list($name, $link) = explode(',', $button, 2);
                     if (!empty($name) && !empty($link)) {
-                        echo "<li>$name - <a href=\"$link\">$link</a> <a href=\"delete_button.php?name=" . urlencode($name) . "\">Supprimer</a></li>";
+                        echo "<li>$name - <a href=\"$link\">$link</a><br><a href=\"delete_button.php?name=" . urlencode($name) . "\">Supprimer</a></li>";
                     }
                 }
             }
         }
         ?>
     </ul>
+
+    <button type="button" onclick="window.location.href='../index.php';">Retour</button>
 </body>
 </html>
