@@ -52,5 +52,7 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
         }
         ?>
     </ul>
+
+    <button type="button" onclick="window.location.href='../index.php';">Retour</button>
 </body>
 </html>
