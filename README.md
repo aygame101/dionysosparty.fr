@@ -10,4 +10,5 @@ Il nous permet de gérer les stocks, les boutons, avoir les différents liens ra
 
 ### To do
 - Bouton galerie photos des soirées.
-- Gestion membre ?
+- desactiver boutons
+- update stock quick action
