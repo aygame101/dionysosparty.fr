@@ -1,5 +1,5 @@
-
-Adherer,https://dionysosparty.fr/adherer
-Mail,mailto:dionysos.party.ca@gmail.com
-Linkedin,https://www.linkedin.com/company/dionysos-party
-La carte,carte
+Adherer,https://dionysosparty.fr/adherer,0
+Mail,mailto:dionysos.party.ca@gmail.com,0
+Linkedin,https://www.linkedin.com/company/dionysos-party,0
+La carte,carte,0
+De grandes choses à venir...,https://www.youtube.com/watch?v=dQw4w9WgXcQ,1
