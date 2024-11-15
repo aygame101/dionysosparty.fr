@@ -30,6 +30,7 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
         <label for="quantity">Quantité de l'objet:</label>
         <input type="number" id="quantity" name="quantity" required>
         <br>
+        <button type="button" onclick="window.location.href='index.php';">Retour</button>
         <button type="submit">Ajouter</button>
     </form>
 </body>
