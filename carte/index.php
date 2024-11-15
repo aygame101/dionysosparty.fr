@@ -27,6 +27,8 @@
             }
         }
         ?>
+
+        <button type="button" onclick="window.location.href='../index.php';">Retour</button>
     </div>
 </body>
 </html>
