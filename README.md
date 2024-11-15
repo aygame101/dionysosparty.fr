@@ -5,10 +5,10 @@ Il nous permet de gérer les stocks, les boutons, avoir les différents liens ra
 
 ## To do
 - Bouton galerie photos des soirées.
-- update stock quick action
 
 #### Done
 - Panel admin geston stock, boutons.
 - Structure principale.
-- Boutons principaux
-- activer/desactiver boutons
+- Boutons principaux.
+- activer/desactiver boutons.
+- update stock quick action.
