@@ -35,7 +35,7 @@
                 }
                 ?>
 
-                <div class="scroll"></div>
+                
 
             </div>
         </section>
