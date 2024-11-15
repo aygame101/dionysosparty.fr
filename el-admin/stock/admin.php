@@ -4,7 +4,33 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
     header('Location: ../connexion.php');
     exit;
 }
+
+// Mise à jour de la quantité
+if (isset($_GET['update']) && isset($_GET['name']) && isset($_GET['action'])) {
+    $filename = 'stocks.txt';
+    if (file_exists($filename)) {
+        $stocks = file($filename, FILE_IGNORE_NEW_LINES);
+        $updatedStocks = [];
+        foreach ($stocks as $stock) {
+            if (!empty(trim($stock))) {
+                list($name, $price, $quantity) = explode(',', $stock);
+                if ($name === $_GET['name']) {
+                    if ($_GET['action'] === 'increment') {
+                        $quantity++;
+                    } elseif ($_GET['action'] === 'decrement' && $quantity >= 1) {
+                        $quantity--;
+                    }
+                }
+                $updatedStocks[] = "$name,$price,$quantity";
+            }
+        }
+        file_put_contents($filename, implode("\n", $updatedStocks));
+        header('Location: admin.php?updated=true');
+        exit;
+    }
+}
 ?>
+
 
 <!DOCTYPE html>
 <html lang="fr">
@@ -43,8 +69,10 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
                 if (!empty(trim($stock))) { 
                     list($name, $price, $quantity) = explode(',', $stock, 3);
                     if (!empty($name) && !empty($price)) { 
-                        echo "<li>$name | $price € | Quantité: $quantity 
-                            <br><a href=\"modifier_obj.php?name=" . urlencode($name) . "\">Modifier</a> 
+                        echo "<li>$name | $price € | Quantité: $quantity
+                            <br><a href=\"?update=true&name=" . urlencode($name) . "&action=increment\">+1</a> 
+                            <a href=\"?update=true&name=" . urlencode($name) . "&action=decrement\">-1</a>
+                            <a href=\"modifier_obj.php?name=" . urlencode($name) . "\">Modifier</a> 
                             <a href=\"supprimer_obj.php?name=" . urlencode($name) . "\">Supprimer</a></li>";
                     }
                 }
